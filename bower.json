@@ -2,7 +2,16 @@
   "name": "purescript-purdux",
   "version": "0.0.1",
   "ignore": [
-    "!dist/**/*"
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "example",
+    "src",
+    "output",
+    "bower.json",
+    "package.json",
+    "webpack.config.js",
+    "test"
   ],
   "dependencies": {
     "purescript-eff": "~0.1.2",
